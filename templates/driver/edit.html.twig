@@ -1,0 +1,20 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+
+{% endblock %}
+
+{% block body %}
+
+    {{  form(driver_form) }}
+
+
+
+    <div class="mt-6">
+        <h4 class="tracking-tight text-[22px] font-semibold">
+            <a class="hover:underline" href="{{ path('app_driver_index') }}">Go back to Driver list</a>
+        </h4>
+    </div>
+
+{% endblock %}
+
